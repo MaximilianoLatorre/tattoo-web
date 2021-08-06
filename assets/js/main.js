@@ -90,7 +90,7 @@ sr.reveal(`.home__data`, {
 });
 
 sr.reveal(
-    `.section__title, .services__description, .services__card, .team__card, .contact__form`,
+    `.section__title, .services__description, .services__card, .team__card`,
     {
         origin: "bottom",
         interval: 100,
@@ -106,7 +106,7 @@ sr.reveal(`.about__data`, {
     interval: 100,
 });
 
-sr.reveal(`.contact__data`, {
+sr.reveal(`.contact__data, .contact__form`, {
     distance: "0px",
     opacity: 0,
 });
