@@ -77,7 +77,7 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-/* ========== SCROLL REVEAL ANIMATION ========= */
+/* ========== SCROLL REVEAL ANIMATION ========= 
 const sr = ScrollReveal({
     distance: "60px",
     duration: 2800,
@@ -110,3 +110,4 @@ sr.reveal(`.contact__data, .contact__form`, {
     distance: "0px",
     opacity: 0,
 });
+*/
