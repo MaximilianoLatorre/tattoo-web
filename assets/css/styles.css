@@ -473,7 +473,6 @@ input {
 .team__card {
     height: 480px;
     grid-template-rows: 1.5fr 0.5fr;
-    justify-items: center;
     gap: 1rem;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
 }
@@ -493,8 +492,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
 }
 
 .data__subtitle {

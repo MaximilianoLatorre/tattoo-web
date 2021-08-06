@@ -89,10 +89,13 @@ sr.reveal(`.home__data`, {
     interval: 100,
 });
 
-sr.reveal(`.section__title, .services__description, .services__card`, {
-    origin: "bottom",
-    interval: 100,
-});
+sr.reveal(
+    `.section__title, .services__description, .services__card, .team__card`,
+    {
+        origin: "bottom",
+        interval: 100,
+    }
+);
 
 sr.reveal(`.home__social, .about__img`, {
     origin: "left",
