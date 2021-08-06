@@ -472,7 +472,7 @@ input {
 
 .team__card {
     height: 480px;
-    grid-template-rows: 1.5fr 0.5fr;
+    grid-template-rows: 2fr 1fr;
     gap: 1rem;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
 }
@@ -489,9 +489,11 @@ input {
 }
 
 .team__data {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    text-align: center;
+    padding-top: 1.5rem;
 }
 
 .data__subtitle {
@@ -504,12 +506,13 @@ input {
     text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+    margin: 1rem 0;
 }
 
-.data__social {
+/* .data__social {
     display: flex;
     justify-content: center;
-}
+} */
 
 .data__social-link {
     color: var(--first-color);
