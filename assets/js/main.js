@@ -78,7 +78,6 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 /* ========== SCROLL REVEAL ANIMATION ========= */
-
 const sr = ScrollReveal({
     distance: "60px",
     duration: 2800,
