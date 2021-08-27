@@ -1,691 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ========== FAVICON ========== -->
-        <link
-            rel="shortcut icon"
-            href="assets/img/tattoo-machine.png"
-            type="image/x-icon"
-        />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ========== REMIX ICONS ========== -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-            rel="stylesheet"
-        />
+    <!-- ========== FAVICON ========== -->
+    <link rel="shortcut icon" href="assets/img/tattoo-machine.png" type="image/x-icon" />
 
-        <!-- ========== SWIPER CSS ========== -->
-        <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper/swiper-bundle.min.css"
-        />
+    <!-- ========== REMIX ICONS ========== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-        <!-- ========== CSS ========== -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- ========== SWIPER CSS ========== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-        <title>SKINS-Tatoo Studio</title>
-    </head>
-    <body>
-        <!-- ========== HEADER/NAV ========== -->
-        <header class="header" id="header">
-            <nav class="nav container" id="nav">
-                <a href="#" class="nav__logo">SKINS</a>
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active">
-                                <i class="ri-home-4-line nav__icon"></i>
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="ri-profile-line nav__icon"></i>
-                                About us
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="ri-list-unordered nav__icon"></i>
-                                Services
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#team" class="nav__link">
-                                <i class="ri-shield-user-line nav__icon"></i>
-                                Team
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#testimonials" class="nav__link">
-                                <i class="ri-chat-quote-line nav__icon"></i>
-                                Testimonials
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="ri-mail-line nav__icon"></i>
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
+    <title>SKINS-Tatoo Studio</title>
+</head>
+
+<body>
+    <!-- ========== HEADER/NAV ========== -->
+    <header class="header" id="header">
+        <nav class="nav container" id="nav">
+            <a href="#" class="nav__logo">SKINS</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">
+                            <i class="ri-home-4-line nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-profile-line nav__icon"></i>
+                            About us
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-list-unordered nav__icon"></i>
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#team" class="nav__link">
+                            <i class="ri-shield-user-line nav__icon"></i>
+                            Team
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonials" class="nav__link">
+                            <i class="ri-chat-quote-line nav__icon"></i>
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-mail-line nav__icon"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line toggle-icon" id="nav-toggle-icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== MAIN ========== -->
+    <main class="main">
+        <!-- ========== HOME ========== -->
+        <section class="home" id="home">
+            <img class="home__img" src="assets/img/img1.jpg" alt="tattoo machine" />
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Tattoo Studio</span>
+                    <h1 class="home__data-title">Skins</h1>
+                    <p class="home__data-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Ex, impedit!
+                    </p>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i
-                        class="ri-function-line toggle-icon"
-                        id="nav-toggle-icon"
-                    ></i>
+                <div class="home__social">
+                    <a href="https:/facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https:/instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="__blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </section>
 
-        <!-- ========== MAIN ========== -->
-        <main class="main">
-            <!-- ========== HOME ========== -->
-            <section class="home" id="home">
-                <img
-                    class="home__img"
-                    src="assets/img/img1.jpg"
-                    alt="tattoo machine"
-                />
+        <!-- ========== ABOUT ========== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        About Studio
+                    </h2>
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium, nobis, officiis hic non veniam
+                        labore vero nemo illo neque, iusto harum asperiores
+                        quod alias excepturi optio ipsa quas ex ab?
+                    </p>
+                    <a href="#contact" class="button">Follow us</a>
+                </div>
 
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <span class="home__data-subtitle">Tattoo Studio</span>
-                        <h1 class="home__data-title">Skins</h1>
-                        <p class="home__data-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ex, impedit!
+                <div class="about__img">
+                    <div class="about__img__overlay">
+                        <img class="about__img__one" src="assets/img/about1.jpg" alt="tattoo artist" />
+                    </div>
+
+                    <div class="about__img__overlay">
+                        <img class="about__img__two" src="assets/img/about2.jpg" alt="tattoo artist" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SERVICES ========== -->
+        <section class="services section" id="services">
+            <h2 class="section__title">What We Do</h2>
+            <p class="services__description container">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt illo corporis omnis porro quaerat? Aliquam sapiente
+                quis distinctio. Ab, fugiat.
+            </p>
+            <div class="services__container container grid">
+                <!-- ========== CARD 1 ========== -->
+                <div class="services__card">
+                    <img class="card__img" src="assets/img/service1.jpg" alt="" />
+
+                    <div class="card__content">
+                        <img class="card__icon" src="assets/img/tattoo.svg" alt="" />
+                        <h3 class="card__title">Tattoo Desing</h3>
+                        <p class="card__description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatum, voluptates?
                         </p>
-                    </div>
-
-                    <div class="home__social">
-                        <a
-                            href="https:/facebook.com/"
-                            target="_blank"
-                            class="home__social-link"
-                        >
-                            <i class="ri-facebook-circle-fill"></i>
-                        </a>
-                        <a
-                            href="https:/instagram.com/"
-                            target="_blank"
-                            class="home__social-link"
-                        >
-                            <i class="ri-instagram-fill"></i>
-                        </a>
-                        <a
-                            href="https://twitter.com/"
-                            target="__blank"
-                            class="home__social-link"
-                        >
-                            <i class="ri-twitter-fill"></i>
-                        </a>
+                        <a href="#" class="card__button">View More</a>
                     </div>
                 </div>
-            </section>
+                <!-- ========== CARD 2 ========== -->
+                <div class="services__card">
+                    <img class="card__img" src="assets/img/service2.jpg" alt="" />
 
-            <!-- ========== ABOUT ========== -->
-            <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <h2 class="section__title about__title">
-                            About Studio
-                        </h2>
-                        <p class="about__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Laudantium, nobis, officiis hic non veniam
-                            labore vero nemo illo neque, iusto harum asperiores
-                            quod alias excepturi optio ipsa quas ex ab?
+                    <div class="card__content">
+                        <img class="card__icon" src="assets/img/piercing.svg" alt="" />
+                        <h3 class="card__title">Piercing</h3>
+                        <p class="card__description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatum, voluptates?
                         </p>
-                        <a href="#contact" class="button">Follow us</a>
+                        <a href="#" class="card__button">View More</a>
                     </div>
+                </div>
+                <!-- ========== CARD 3 ========== -->
+                <div class="services__card">
+                    <img class="card__img" src="assets/img/service3.jpg" alt="" />
 
-                    <div class="about__img">
-                        <div class="about__img__overlay">
-                            <img
-                                class="about__img__one"
-                                src="assets/img/about1.jpg"
-                                alt="tattoo artist"
-                            />
-                        </div>
+                    <div class="card__content">
+                        <img class="card__icon" src="assets/img/chair.svg" alt="" />
+                        <h3 class="card__title">Tattoo Cover Up</h3>
+                        <p class="card__description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatum, voluptates?
+                        </p>
+                        <a href="#" class="card__button">View More</a>
+                    </div>
+                </div>
+                <!-- ========== CARD 4 ========== -->
+                <div class="services__card">
+                    <img class="card__img" src="assets/img/service4.jpg" alt="" />
 
-                        <div class="about__img__overlay">
-                            <img
-                                class="about__img__two"
-                                src="assets/img/about2.jpg"
-                                alt="tattoo artist"
-                            />
+                    <div class="card__content">
+                        <img class="card__icon" src="assets/img/laser.svg" alt="" />
+                        <h3 class="card__title">Laser Removal</h3>
+                        <p class="card__description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatum, voluptates?
+                        </p>
+                        <a href="#" class="card__button">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TEAM ========== -->
+        <section class="team section" id="team">
+            <h2 class="section__title">Our Team</h2>
+            <div class="team__container container grid">
+                <!-- ========== Card 1 ==========-->
+                <div class="team__card">
+                    <img src="assets/img/team1.jpg" alt="" class="team__img" />
+
+                    <div class="team__data">
+                        <span class="data__subtitle">Tattoo Master</span>
+                        <h3 class="data__name">Elisabet Montes</h3>
+                        <div class="data__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <!-- ========== SERVICES ========== -->
-            <section class="services section" id="services">
-                <h2 class="section__title">What We Do</h2>
-                <p class="services__description container">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Incidunt illo corporis omnis porro quaerat? Aliquam sapiente
-                    quis distinctio. Ab, fugiat.
-                </p>
-                <div class="services__container container grid">
-                    <!-- ========== CARD 1 ========== -->
-                    <div class="services__card">
-                        <img
-                            class="card__img"
-                            src="assets/img/service1.jpg"
-                            alt=""
-                        />
+                <!-- ========== Card 2 ==========-->
+                <div class="team__card">
+                    <img src="assets/img/team2.jpg" alt="" class="team__img" />
 
-                        <div class="card__content">
-                            <img
-                                class="card__icon"
-                                src="assets/img/tattoo.svg"
-                                alt=""
-                            />
-                            <h3 class="card__title">Tattoo Desing</h3>
-                            <p class="card__description">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatum, voluptates?
-                            </p>
-                            <a href="#" class="card__button">View More</a>
-                        </div>
-                    </div>
-                    <!-- ========== CARD 2 ========== -->
-                    <div class="services__card">
-                        <img
-                            class="card__img"
-                            src="assets/img/service2.jpg"
-                            alt=""
-                        />
-
-                        <div class="card__content">
-                            <img
-                                class="card__icon"
-                                src="assets/img/piercing.svg"
-                                alt=""
-                            />
-                            <h3 class="card__title">Piercing</h3>
-                            <p class="card__description">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatum, voluptates?
-                            </p>
-                            <a href="#" class="card__button">View More</a>
-                        </div>
-                    </div>
-                    <!-- ========== CARD 3 ========== -->
-                    <div class="services__card">
-                        <img
-                            class="card__img"
-                            src="assets/img/service3.jpg"
-                            alt=""
-                        />
-
-                        <div class="card__content">
-                            <img
-                                class="card__icon"
-                                src="assets/img/chair.svg"
-                                alt=""
-                            />
-                            <h3 class="card__title">Tattoo Cover Up</h3>
-                            <p class="card__description">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatum, voluptates?
-                            </p>
-                            <a href="#" class="card__button">View More</a>
-                        </div>
-                    </div>
-                    <!-- ========== CARD 4 ========== -->
-                    <div class="services__card">
-                        <img
-                            class="card__img"
-                            src="assets/img/service4.jpg"
-                            alt=""
-                        />
-
-                        <div class="card__content">
-                            <img
-                                class="card__icon"
-                                src="assets/img/laser.svg"
-                                alt=""
-                            />
-                            <h3 class="card__title">Laser Removal</h3>
-                            <p class="card__description">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatum, voluptates?
-                            </p>
-                            <a href="#" class="card__button">View More</a>
+                    <div class="team__data">
+                        <span class="data__subtitle">Tattoo Master</span>
+                        <h3 class="data__name">Noah Zambrano</h3>
+                        <div class="data__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <!-- ========== TEAM ========== -->
-            <section class="team section" id="team">
-                <h2 class="section__title">Our Team</h2>
-                <div class="team__container container grid">
-                    <!-- ========== Card 1 ==========-->
-                    <div class="team__card">
-                        <img
-                            src="assets/img/team1.jpg"
-                            alt=""
-                            class="team__img"
-                        />
+                <!-- ========== Card 3 ==========-->
+                <div class="team__card">
+                    <img src="assets/img/team3.jpg" alt="" class="team__img" />
 
-                        <div class="team__data">
-                            <span class="data__subtitle">Tattoo Master</span>
-                            <h3 class="data__name">Elisabet Montes</h3>
-                            <div class="data__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ========== Card 2 ==========-->
-                    <div class="team__card">
-                        <img
-                            src="assets/img/team2.jpg"
-                            alt=""
-                            class="team__img"
-                        />
-
-                        <div class="team__data">
-                            <span class="data__subtitle">Tattoo Master</span>
-                            <h3 class="data__name">Noah Zambrano</h3>
-                            <div class="data__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ========== Card 3 ==========-->
-                    <div class="team__card">
-                        <img
-                            src="assets/img/team3.jpg"
-                            alt=""
-                            class="team__img"
-                        />
-
-                        <div class="team__data">
-                            <span class="data__subtitle">Piercing Master</span>
-                            <h3 class="data__name">Maria Galloway</h3>
-                            <div class="data__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
+                    <div class="team__data">
+                        <span class="data__subtitle">Piercing Master</span>
+                        <h3 class="data__name">Maria Galloway</h3>
+                        <div class="data__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- ========== TESTIMONIALS ========== -->
-            <section class="testimonials section" id="testimonials">
-                <h2 class="section__title">Testimonials</h2>
-                <img
-                    src="assets/img/testimonialBG.jpg"
-                    alt=""
-                    class="testimonials__bg"
-                />
+        <!-- ========== TESTIMONIALS ========== -->
+        <section class="testimonials section" id="testimonials">
+            <h2 class="section__title">Testimonials</h2>
+            <img src="assets/img/testimonialBG.jpg" alt="" class="testimonials__bg" />
 
-                <div
-                    class="
+            <div class="
                         testimonials__container
                         container
                         swiper-container
                         mySwiper
-                    "
-                >
-                    <div class="swiper-wrapper">
-                        <div class="testimonial__content swiper-slide">
-                            <div class="client__img__overlay">
-                                <img
-                                    src="assets/img/client1.jpg"
-                                    alt=""
-                                    class="client__img"
-                                />
-                            </div>
-
-                            <div class="testimonial__client">
-                                <span class="client__subtitle"
-                                    >Premium Client</span
-                                >
-                                <h3 class="client__name">Eliss Bradley</h3>
-                            </div>
-
-                            <div class="testimonial__text">
-                                <i
-                                    class="
-                                        ri-double-quotes-l
-                                        testimonial__quotes
-                                    "
-                                ></i>
-                                <span class="client__coment"
-                                    >Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Alias vitae molestias
-                                    repellendus qui quas omnis eius aliquam quam
-                                    magni ipsa.</span
-                                >
-                                <i
-                                    class="
-                                        ri-double-quotes-r
-                                        testimonial__quotes
-                                    "
-                                ></i>
-                            </div>
-
-                            <div class="client__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
+                    ">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__content swiper-slide">
+                        <div class="client__img__overlay">
+                            <img src="assets/img/client1.jpg" alt="" class="client__img" />
                         </div>
-                        <div class="testimonial__content swiper-slide">
-                            <div class="client__img__overlay">
-                                <img
-                                    src="assets/img/client2.jpg"
-                                    alt=""
-                                    class="client__img"
-                                />
-                            </div>
 
-                            <div class="testimonial__client">
-                                <span class="client__subtitle"
-                                    >Premium Client</span
-                                >
-                                <h3 class="client__name">Desmond Pittman</h3>
-                            </div>
-
-                            <div class="testimonial__text">
-                                <i
-                                    class="
-                                        ri-double-quotes-l
-                                        testimonial__quotes
-                                    "
-                                ></i>
-                                <span class="client__coment"
-                                    >Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Molestias praesentium
-                                    dolorem, beatae provident voluptatem
-                                    quia.</span
-                                >
-                                <i
-                                    class="
-                                        ri-double-quotes-r
-                                        testimonial__quotes
-                                    "
-                                ></i>
-                            </div>
-
-                            <div class="client__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
+                        <div class="testimonial__client">
+                            <span class="client__subtitle">Premium Client</span>
+                            <h3 class="client__name">Eliss Bradley</h3>
                         </div>
-                        <div class="testimonial__content swiper-slide">
-                            <div class="client__img__overlay">
-                                <img
-                                    src="assets/img/client3.jpg"
-                                    alt=""
-                                    class="client__img"
-                                />
-                            </div>
 
-                            <div class="testimonial__client">
-                                <span class="client__subtitle"
-                                    >Premium Client</span
-                                >
-                                <h3 class="client__name">Cameron Lester</h3>
-                            </div>
-
-                            <div class="testimonial__text">
-                                <i
-                                    class="
+                        <div class="testimonial__text">
+                            <i class="
                                         ri-double-quotes-l
                                         testimonial__quotes
-                                    "
-                                ></i>
-                                <span class="client__coment">
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Alias vitae molestias
-                                    repellendus qui quas omnis eius aliquam quam
-                                    magni ipsa.
-                                </span>
-                                <i
-                                    class="
+                                    "></i>
+                            <span class="client__coment">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias vitae molestias
+                                repellendus qui quas omnis eius aliquam quam
+                                magni ipsa.</span>
+                            <i class="
                                         ri-double-quotes-r
                                         testimonial__quotes
-                                    "
-                                ></i>
-                            </div>
+                                    "></i>
+                        </div>
 
-                            <div class="client__social">
-                                <a
-                                    href="https:/facebook.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-facebook-circle-fill"></i>
-                                </a>
-                                <a
-                                    href="https:/instagram.com/"
-                                    target="_blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-instagram-fill"></i>
-                                </a>
-                                <a
-                                    href="https://twitter.com/"
-                                    target="__blank"
-                                    class="data__social-link"
-                                >
-                                    <i class="ri-twitter-fill"></i>
-                                </a>
-                            </div>
+                        <div class="client__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
+                    <div class="testimonial__content swiper-slide">
+                        <div class="client__img__overlay">
+                            <img src="assets/img/client2.jpg" alt="" class="client__img" />
+                        </div>
 
-            <!-- ========== CONTACT ========== -->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Us</h2>
+                        <div class="testimonial__client">
+                            <span class="client__subtitle">Premium Client</span>
+                            <h3 class="client__name">Desmond Pittman</h3>
+                        </div>
 
-                <div class="contact__container container">
-                    <div class="contact__data">
-                        <span class="contact__info"
-                            ><i class="ri-map-pin-2-line contact__icon"></i>
-                            Map, Ubication 1234</span
-                        >
-                        <span class="contact__info"
-                            ><i class="ri-phone-line contact__icon"></i>
-                            0123-456789</span
-                        >
-                        <span class="contact__info"
-                            ><i class="ri-mail-line contact__icon"></i>
-                            mail@example.com</span
-                        >
+                        <div class="testimonial__text">
+                            <i class="
+                                        ri-double-quotes-l
+                                        testimonial__quotes
+                                    "></i>
+                            <span class="client__coment">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Molestias praesentium
+                                dolorem, beatae provident voluptatem
+                                quia.</span>
+                            <i class="
+                                        ri-double-quotes-r
+                                        testimonial__quotes
+                                    "></i>
+                        </div>
+
+                        <div class="client__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
                     </div>
+                    <div class="testimonial__content swiper-slide">
+                        <div class="client__img__overlay">
+                            <img src="assets/img/client3.jpg" alt="" class="client__img" />
+                        </div>
 
-                    <form class="contact__form grid" action="">
-                        <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Name"
-                            class="form__name"
-                        />
-                        <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                            class="form__email"
-                            required
-                        />
-                        <textarea
-                            class="form__message"
-                            id="text"
-                            type="text"
-                            name="text"
-                            placeholder="Message"
-                            required
-                        ></textarea>
-                        <button class="button" id="submit" type="submit">
-                            Send
-                        </button>
-                    </form>
+                        <div class="testimonial__client">
+                            <span class="client__subtitle">Premium Client</span>
+                            <h3 class="client__name">Cameron Lester</h3>
+                        </div>
+
+                        <div class="testimonial__text">
+                            <i class="
+                                        ri-double-quotes-l
+                                        testimonial__quotes
+                                    "></i>
+                            <span class="client__coment">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias vitae molestias
+                                repellendus qui quas omnis eius aliquam quam
+                                magni ipsa.
+                            </span>
+                            <i class="
+                                        ri-double-quotes-r
+                                        testimonial__quotes
+                                    "></i>
+                        </div>
+
+                        <div class="client__social">
+                            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
-
-        <!-- ========== FOOTER ========== -->
-        <footer class="footer">
-            <div class="socials">
-                <a
-                    href="https:/facebook.com/"
-                    target="_blank"
-                    class="data__social-link"
-                >
-                    <i class="ri-facebook-circle-fill"></i>
-                </a>
-                <a
-                    href="https:/instagram.com/"
-                    target="_blank"
-                    class="data__social-link"
-                >
-                    <i class="ri-instagram-fill"></i>
-                </a>
-                <a
-                    href="https://twitter.com/"
-                    target="__blank"
-                    class="data__social-link"
-                >
-                    <i class="ri-twitter-fill"></i>
-                </a>
-                <a
-                    href="https://whatsapp.com/"
-                    target="__blank"
-                    class="data__social-link"
-                >
-                    <i class="ri-whatsapp-fill"></i>
-                </a>
+                <div class="swiper-pagination"></div>
             </div>
+        </section>
 
-            <div class="copyright">
-                <span>&copy; Copyright 2021. All rights reserved.</span>
+        <!-- ========== CONTACT ========== -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Us</h2>
+
+            <div class="contact__container container">
+                <div class="contact__data">
+                    <span class="contact__info"><i class="ri-map-pin-2-line contact__icon"></i>
+                        Map, Ubication 1234</span>
+                    <span class="contact__info"><i class="ri-phone-line contact__icon"></i>
+                        0123-456789</span>
+                    <span class="contact__info"><i class="ri-mail-line contact__icon"></i>
+                        mail@example.com</span>
+                </div>
+
+                <form class="contact__form grid" action="">
+                    <input type="text" name="name" id="name" placeholder="Name" class="form__name" />
+                    <input type="email" name="email" id="email" placeholder="Email" class="form__email" required />
+                    <textarea class="form__message" id="text" type="text" name="text" placeholder="Message"
+                        required></textarea>
+                    <button class="button" id="submit" type="submit">
+                        Send
+                    </button>
+                </form>
             </div>
-        </footer>
+        </section>
+    </main>
 
-        <!-- ========== SCROLL REVEAL ========== -->
-        <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="socials">
+            <a href="https:/facebook.com/" target="_blank" class="data__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+            </a>
+            <a href="https:/instagram.com/" target="_blank" class="data__social-link">
+                <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://twitter.com/" target="__blank" class="data__social-link">
+                <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://whatsapp.com/" target="__blank" class="data__social-link">
+                <i class="ri-whatsapp-fill"></i>
+            </a>
+        </div>
 
-        <!-- ========== SWIPER JS ========== -->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <!-- ========== MAIN JS ========== -->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <div class="copyright">
+            <span>&copy; Copyright 2021. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- ========== SCROLL REVEAL ========== -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- ========== SWIPER JS ========== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ========== MAIN JS ========== -->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

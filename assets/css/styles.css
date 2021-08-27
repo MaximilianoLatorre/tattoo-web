@@ -535,7 +535,7 @@ input {
 .testimonials__container {
     position: relative;
     height: 100%;
-    padding-top: 4rem;
+    padding-top: 4.5rem;
 }
 
 .testimonial__content {
@@ -592,8 +592,8 @@ input {
     margin: 0 1rem;
 }
 
-.swiper-container-horizontal {
-    bottom: 2.5rem;
+.swiper-horizontal {
+    bottom: 2rem;
 }
 
 .swiper-pagination-bullet {
@@ -606,12 +606,10 @@ input {
 
 /* ========== CONTACT ========== */
 .contact {
-    height: 100vh;
     overflow: hidden;
 }
 
 .contact__container {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
